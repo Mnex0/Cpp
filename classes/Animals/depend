@@ -1,0 +1,9 @@
+animals.o: animals.cpp animals.h
+gazelle.o: gazelle.cpp gazelle.h animals.h
+lion.o: lion.cpp lion.h animals.h
+monde.o: monde.cpp animals.h monde.h
+tpAnimals.o: tpAnimals.cpp animals.h lion.h gazelle.h monde.h
+animals.o: animals.h
+gazelle.o: gazelle.h animals.h
+lion.o: lion.h animals.h
+monde.o: monde.h animals.h
